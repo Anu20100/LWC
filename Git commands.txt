@@ -1,0 +1,19 @@
+Initial Steps for 1st time Git Setup with SFDX:-
+Go to Pull Request in VSCode and login to GitHub
+Go to Source Control and mark all for commit
+check git version
+    git --version
+Configure git using
+    git config --global user.name <username>
+    git config --global user.email "email Id"
+Create local git repo
+    git init
+commit files to git
+    git add .
+    git commit --message "Initial commit of DreamHouse metadata"
+push files to github
+    git remote add origin <git repository URL>
+    git push origin master (Local and Git are on Master branch)
+
+
+

@@ -19,5 +19,4 @@ sfdx force:org:open
 
 
 
-Default Scratch Org : 00D6D0000001Gc4UAE
 
