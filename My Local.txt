@@ -1,0 +1,23 @@
+Steps: 
+->Create Project/Create Project with Manifest 
+->Authorize Dev Org
+
+->create default scratch org
+sfdx force:org:create -s -f config/project-scratch-def.json -a "LWC"
+
+->create lightning web component
+sfdx force:lightning:component:create -n <component name> -d<directory where to be created> --type lwc
+
+->Push Source to the Scratch Org
+sfdx force:source:push
+
+->Pull Source from the Scratch Org
+sfdx force:source:pull
+
+->Open the Scratch Org
+sfdx force:org:open
+
+
+
+Default Scratch Org : 00D6D0000001Gc4UAE
+
